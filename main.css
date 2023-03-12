@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(213, 129, 216);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content-wrapper{
+    padding: 10px 30px;
+}
+p{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+.highlight{
+    font-weight: 700;
+    color: rgb(139, 34, 34);
+}
+h1, h2{
+    font-weight: 400;
+}
+
+ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
