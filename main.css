@@ -2,8 +2,11 @@ body{
     background-color: rgb(213, 129, 216);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.content-wrapper{
+.buttons{
     padding: 10px 30px;
+}
+.inputbox{
+    outline: solid;
 }
 p{
     text-align: justify;

@@ -10,13 +10,14 @@
 </head>
 
 
-<body>
-    <div class="content-wrapper">
+<body onload="printTasks()" onload="updateCounter()">
+    <div class="buttons" >
         <h1 id="heading">TODO List</h1>
-            <input type="text" id="myText" value="Some text...">
-            <button type="button" onclick="addObject()">Add</button>
+        <input type="text" class="inputbox" id="myText" value="Some text...">
+        <button type="button" onclick="addObject()">Add</button>
     </div>
-    <div onchange="printTasks()"></div>
+    <div id="listing"></div>
+    <form id="form1" name="myform" ><p></p></form>
 </body>
 
 </html>
